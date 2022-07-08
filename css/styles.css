@@ -1,0 +1,206 @@
+#title{
+        background-color: rgb(148, 21, 42);
+        text-align: left;
+        /* font-family: 'Ubuntu', sans-serif; */
+}
+h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3rem;
+        line-height: 1.5;
+        color: wheat;
+        font-weight: bold;
+}
+
+h3{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+}
+p{
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: larger;
+}
+
+/* Bootstrap features */
+
+.container-fluid{
+        padding: 3% 10%;
+}
+
+#title .container-fluid {
+        padding: 3% 12% 7%;
+      }
+.navbar{
+        padding: 0  0  4.5rem;
+}
+.navbar-brand{
+        font-family: "Ubuntu";
+        font-size: 2.5rem;
+        font-weight: bold;
+}
+.nav-item{
+        padding: 0 18px;
+}
+.nav-link{
+        font-size: 1.3rem;
+      
+}
+.navvbarr{
+        
+        padding-left: 30rem;
+}
+.download-button{
+        margin: 3% 5% 1% 0;
+}
+
+/* features */
+#features{
+        padding: 7%  10%;
+        text-align: center;
+        line-height: 1.5rem;
+        background-color: wheat;
+}
+
+.feature-div{
+        margin-top: 10%;
+        margin-bottom: 10%;
+}
+
+.icon{
+       
+        margin-bottom: 15px;
+        color: brown;
+}
+
+.icon:hover{
+        color: rgb(249, 18, 49);
+}
+
+/*Testimonials */
+
+#testimonials{
+        background-color: rgb(148, 21, 42);
+        text-align: center;
+        padding-bottom: 3.5%;
+        color: rgb(251, 228, 186);
+        font-weight: bold;
+}
+.carousel-item{
+        
+        padding: 10% 15%;
+}
+
+/* Press */
+#press{
+
+        padding: 10%  2.5%;
+        text-align: center;
+        background-color: wheat;
+}
+/* Pricing */
+#pricing{
+        background-color: rgb(148, 21, 42);
+        padding: 5%;
+        text-align: center;
+        line-height: 2;
+
+}
+.card{
+        border: solid 5px black;
+}
+.pricing-heading{
+
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: bold;
+        color:  rgb(251, 239, 222);
+        padding-bottom: 2rem;
+}
+.dog-heading{
+        font-size: 2rem;
+        font-family: 'Parisienne', cursive;
+        font-weight: bold;
+}
+
+/*  Call to Action  */
+
+#cta{
+        background-color: wheat;
+        padding: 3% 7%;
+        text-align: center;
+        
+
+}
+.cta-heading{
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: bold;
+        color: rgb(148, 21, 42);
+        font-size: 2rem;
+}
+
+/* Footer */
+
+#footer{
+        background-color: rgb(148, 21, 42);
+        text-align: center;
+        padding: 3.5%;
+}
+
+.normal{
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+}
+/* images */
+.main-display-img{
+        width: 120%;
+        padding-left: 40px;
+        box-shadow: inset;
+        filter: drop-shadow(0 0 1rem #fd7a4a);
+        float: right;
+        position: static;
+        z-index: -1;
+}
+
+.testimonial-image{
+        width: 30%;
+        padding-top: 20px;
+        padding-right: 20px;
+        border-radius: 30%;
+}
+
+.logo{
+        margin: 5px 15px;
+        width: 14%;
+        text-align: center;
+}
+.fa-brands{
+
+        padding-right: 5px;
+}
+.fa-icon{
+        color: wheat;
+        margin-right: 20px;
+        margin-bottom: 25px;
+}
+#insta:hover{
+        background: radial-gradient(circle at 30% 90%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 70%, #285AEB 70%);
+}
+#twitter:hover{
+        color: #285AEB;
+}
+#fb:hover{
+        color: #0f3fcd;
+}
+#msg:hover{
+        color: #061134;
+}
+@media (max-width: 1028px) {
+
+        #title {
+          text-align: center;
+        }
+      
+        .title-image {
+          position: static;
+          transform: rotate(0);
+        }
+      }
+      
